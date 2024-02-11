@@ -1,0 +1,8 @@
+#verilog code for a combinational half adder circuit with a and b as inputs and s represents the sum and c represents the carry.
+#gate level or structural modelling.
+module halfadder(a,b,s,c);
+   input a,b;
+   output s.c;
+   xor(s,a,b);
+   and(c,a,b);
+endmodule
